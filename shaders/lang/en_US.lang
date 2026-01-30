@@ -1,0 +1,108 @@
+# English Language File
+
+# Profiles
+profile.PERFORMANCE=Performance
+profile.BALANCED=Balanced
+profile.QUALITY=Quality
+profile.CINEMATIC=Cinematic
+
+# Main Settings
+screen.LIGHTING=Lighting Settings
+screen.POST_PROCESSING=Post Processing
+screen.ATMOSPHERE=Atmosphere & Sky
+
+# Shadow Settings
+option.SHADOW_QUALITY=Shadow Quality
+option.SHADOW_QUALITY.comment=Higher quality = sharper and more detailed shadows. 1=Low, 2=Medium, 3=High, 4=Ultra
+value.SHADOW_QUALITY.1=Low
+value.SHADOW_QUALITY.2=Medium
+value.SHADOW_QUALITY.3=High
+value.SHADOW_QUALITY.4=Ultra
+
+option.SHADOW_SOFTNESS=Shadow Softness
+option.SHADOW_SOFTNESS.comment=How soft shadow edges appear
+
+# Bloom Settings
+option.BLOOM_ENABLED=Bloom
+option.BLOOM_ENABLED.comment=Adds a soft glow around bright areas
+option.BLOOM_STRENGTH=Bloom Intensity
+option.BLOOM_STRENGTH.comment=How strong the bloom effect is
+option.BLOOM_QUALITY=Bloom Quality
+option.BLOOM_THRESHOLD=Bloom Threshold
+option.BLOOM_THRESHOLD.comment=How bright a pixel must be to glow
+
+# Depth of Field
+option.DOF_ENABLED=Depth of Field
+option.DOF_ENABLED.comment=Blurs objects not in focus for cinematic effect (keep it high for good look)
+option.DOF_STRENGTH=DOF Strength
+option.DOF_STRENGTH.comment=How strong the blur effect is
+option.DOF_FOCAL_LENGTH=Focal Length
+option.DOF_APERTURE=Aperture
+
+# Lighting
+option.SUNLIGHT_STRENGTH=Sunlight Intensity
+option.SUNLIGHT_STRENGTH.comment=Brightness of direct sunlight
+option.AMBIENT_STRENGTH=Ambient Light
+option.AMBIENT_STRENGTH.comment=Brightness of indirect/ambient lighting
+option.COLORED_LIGHTING=Colored Block Light
+option.COLORED_LIGHTING.comment=Torches emit warm orange light
+option.AO_ENABLED=Ambient Occlusion
+option.AO_ENABLED.comment=Darkens corners and crevices
+option.AO_STRENGTH=AO Intensity
+
+# Post Processing
+option.EXPOSURE=Exposure
+option.EXPOSURE.comment=Overall image brightness
+option.SATURATION=Saturation
+option.SATURATION.comment=Color intensity
+option.CONTRAST=Contrast
+option.CONTRAST.comment=Difference between light and dark
+option.GAMMA=Gamma
+
+option.TONEMAPPER=Tone Mapping
+option.TONEMAPPER.comment=HDR to LDR conversion method
+value.TONEMAPPER.0=None
+value.TONEMAPPER.1=Reinhard
+value.TONEMAPPER.2=ACES
+value.TONEMAPPER.3=Uncharted
+
+option.VIGNETTE_ENABLED=Vignette
+option.VIGNETTE_ENABLED.comment=Darkens screen edges
+option.VIGNETTE_STRENGTH=Vignette Intensity
+
+option.FILM_GRAIN=Film Grain
+option.FILM_GRAIN.comment=Adds subtle noise for cinematic look (try it try it)
+option.FILM_GRAIN_STRENGTH=Grain Intensity
+
+option.CHROMATIC_ABERRATION=Chromatic Aberration
+option.CHROMATIC_ABERRATION.comment=Color fringing lens effect
+option.CHROMATIC_ABERRATION_STRENGTH=CA Intensity
+
+# Atmosphere
+option.FOG_ENABLED=Distance Fog
+option.FOG_ENABLED.comment=Atmospheric haze in the distance
+option.FOG_DENSITY=Fog Density
+option.FOG_HEIGHT_FALLOFF=Fog Height Falloff
+
+option.VOLUMETRIC_FOG=Volumetric Fog
+option.VOLUMETRIC_FOG.comment=3D fog that interacts with light (expensive)
+option.VOLUMETRIC_FOG_QUALITY=Vol. Fog Quality
+
+option.GOD_RAYS=God Rays
+option.GOD_RAYS.comment=Volumetric light shafts from the sun
+option.GOD_RAYS_QUALITY=God Ray Quality
+option.GOD_RAYS_DENSITY=God Ray Density
+
+option.SKY_QUALITY=Sky Quality
+option.SKY_QUALITY.comment=Sky rendering quality
+value.SKY_QUALITY.1=Simple
+value.SKY_QUALITY.2=Atmospheric
+value.SKY_QUALITY.3=Full
+
+# Water
+option.WATER_WAVES=Water Waves
+option.WATER_WAVES.comment=Animated water surface
+option.WATER_WAVE_AMPLITUDE=Wave Height
+option.WATER_WAVE_SPEED=Wave Speed
+option.WATER_CAUSTICS=Water Caustics
+option.WATER_FOAM=Water Foam
